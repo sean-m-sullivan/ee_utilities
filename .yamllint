@@ -7,9 +7,6 @@ ignore: |
 rules:
   # 80 chars should be enough, but don't fail if a line is longer
   line-length: disable
-  colons:
-    max-spaces-before: 0
-    max-spaces-after: -1
   document-end: {present: true}
   indentation:
     level: error

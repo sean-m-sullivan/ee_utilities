@@ -2,8 +2,6 @@
 - name: Playbook to create custom EE
   hosts: localhost
   gather_facts: false
-  collections:
-    - infra.ee_utilities
   vars:
     # For controller configuration definition
     ee_builder_dir_clean: false
